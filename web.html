@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Zübeyde Yavuz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <nav>
+        <button onclick="document.getElementById('about').scrollIntoView();">Benim Hakkımda</button>
+        <button onclick="document.getElementById('hobbies-interests').scrollIntoView();">Hobilerim ve Korkum</button>
+        <button onclick="document.getElementById('footer').scrollIntoView();">İletişim</button>
+        <button id="dark-mode-toggle">Koyu Mod</button>
+
+    </nav>
+    <header>
+        <h1>Zübeyde'nin Web Sitesi</h1>
+    </header>
+</body>
+    <section id="about">
+        <h2>Benim Hakkımda Hakkımda</h2>
+        <div class="about-container">
+            <img src="profil-foto.jpg" alt="Zübeyde Yavuz'un Profil Fotoğrafı" id="about-img">
+            <p>Merhaba,Ben Zübeyde YAVUZ 2002 yılında Ankara'da doğdum. nkara Medipol Üniversitesinde Yönetim Bilişim Sistemleri okumaktayım. Babam polis annem ev hanımıdır, bir erkek kardeşim var o da üniversiteye hazırlanmakta. Gündelik hayatımda genelde arkadaşlarımla vakit geçiririm ancak çok konuşkan birisi olmadığım için bu konuda çok eleştiriliyorum. Okul dışında İngilizce eğitimi almaktayım. </p>
+            <button id="download-cv" onclick="window.location.href='cv-zubeyde-yavuz.pdf';">CV'imi İndir</button>
+        </div>
+    </section>    
+        <div id="image-slider">
+            <h3>Hayatımdan Bazı Fotoğraflar</h3>
+            <div class="image-info-container">
+                <p id="image-info">Şeker ve benn Etimesgut</p>
+            </div>
+            <img src="image1.jpg" alt="Şeker ve benn Etimesgut, 2024" id="slider-image">
+            <button id="next-image">Sonraki Fotoğraflarım İçin Lütfen Tıklayınız</button>
+        </div>
+    </section>    
+    <div id="hobbies-interests">
+        <section id="hobbies">
+            <h2>Hobilerim</h2>
+            <ul>
+                <li>Arkadaşlarımla TAB Gıda Yemek.</li>
+                <li>Müzik Dinleme</li>
+                <li>Doğa Yürüyüşü</li>
+                <li>Yüzme</li>
+            </ul>
+        </section>
+        <section id="interests">
+            <h2>Korkum</h2>
+            <ul>
+                <li>Karanlıkta Kalmaktan Korkarım.</li>
+            </ul>
+        </section>
+    </div>    
+    <footer>
+        <h2>İletişim</h2>
+        <div id="contact-info">
+            <p>Email: zubeydeyavuz141@gmail.com</p>
+            <p>Cep Telefonu: +905320330</p>
+            <p>Sosyal Medya: <a href="http://linkedin.com/in/zübeyde-yavuz-185ab62b1">LinkedIn</a> </p>
+        </div>
+        <button id="toggle-contact">İletişim Bilgilerini Göster/Gizle</button>
+    </footer>    
+</body>
+</html>
